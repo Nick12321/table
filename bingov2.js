@@ -61,6 +61,7 @@ function toggleColor(evt) {
     }    
     else {
         thisSquare.className = "";
+        
     }
 }
 
