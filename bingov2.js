@@ -50,14 +50,15 @@ function anotherCard() {
 }
 
 function toggleColor(evt) {
-    if (evt) {
+      if (evt) {
         var thisSquare = evt.target;
     }
     else {
         var thisSquare = window.event.srcElement;
     }
-    if (thisSquare.classname == "") {
-        thisSquare.classname = "pickedBG";
+
+    if (thisSquare.className == "") {
+        thisSquare.className = "pickedBG";
     }    
     else {
         thisSquare.className = "";
