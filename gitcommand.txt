@@ -3,3 +3,8 @@ git commit -m "comment"
 git push -u origin master
 
 git clone git@github.com:Nick12321/table.git
+
+git branch <branch-name>
+git checkout <branch-name>
+#/ or both at the same time
+git checkout -b <branch-name>
